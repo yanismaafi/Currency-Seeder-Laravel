@@ -13,7 +13,7 @@ class CurrencySeeder extends Seeder
     {
         DB::table('currencies')->delete();
 
-		$currencies = array(
+        $currencies = array(
 
             array('ISO-4217'=> 'AFN',
                 'country'=> 'Afghanistan',
